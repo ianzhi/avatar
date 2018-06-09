@@ -1,7 +1,7 @@
 <?php
 namespace IanZhi\Avatar;
 
-use Ianzhi\Avatar\Interfaces\IAvatar;
+use IanZhi\Avatar\Interfaces\IAvatar;
 
 /**
  * 根据用户名生成头像
@@ -18,7 +18,7 @@ class FirstWordAvatar implements IAvatar
         'height' => '100',
         'size' => '20', // 文字大小，单位：磅
         'path' => false,
-        'font_file' => './fonts/msyh.ttf'
+        'font_file' => __DIR__ . '/fonts/msyh.ttf',
     ];
 
     /**

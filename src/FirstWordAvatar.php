@@ -1,12 +1,10 @@
 <?php
 namespace IanZhi\Avatar;
 
-use IanZhi\Avatar\Interfaces\IAvatar;
-
 /**
  * 根据用户名生成头像
  */
-class FirstWordAvatar implements IAvatar
+class FirstWordAvatar
 {
     /**
      * 配置项
